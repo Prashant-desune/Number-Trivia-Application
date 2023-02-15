@@ -1,7 +1,7 @@
 let getFactBtn = document.getElementById("get-fact-btn");
 let ranFactBtn = document.getElementById("ran-fact-btn");
 let fact = document.querySelector(".fact");
-let url = "https://numbersapi.com/";
+let url = "http://numbersapi.com/";
 
 let fetchFact = (num) => {
   let finalUrl = url + num;
